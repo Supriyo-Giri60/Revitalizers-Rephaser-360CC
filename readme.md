@@ -59,6 +59,11 @@ pip install numpy pandas scikit-learn pickle fastapi uvicorn
 uvicorn api:app --reload
 
 ```
+then creating the model.plk
+```
+python train_model.py
+```
+on running this it genrerates a model.pkl file 
 
 ### Running the Project  
 ```
